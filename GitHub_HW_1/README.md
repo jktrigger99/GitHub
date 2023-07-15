@@ -25,18 +25,110 @@
 
 `git commit -m "new.json added`
 
-### 6. Отправить файл на внешний GitHub репозиторий.
-### 7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
-### 8. Отправить изменения на внешний репозиторий.
+### 6. Отправить файл на внешний GitHub репозиторий
+
+`git push`
+
+### 7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON
+
+`vim new.json`
+```
+{
+    "name": "jktrigger",
+    "age": 38,
+    "pets": 0,
+    "desired future salary": 5000
+}
+```
+
+### 8. Отправить изменения на внешний репозиторий
+
+```
+git add .
+git commit -m "second commit"
+git push
+```
+
 ### 9. Создать файл preferences.json
-### 10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
-### 11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
-### 12. Отправить сразу 2 файла на внешний репозиторий.
-### 13. На веб интерфейсе создать файл bug_report.json.
-### 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-### 15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
-### 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+`touch preferences.json`
+
+### 10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON
+
+`vim preferences.json`
+```
+{
+    "Favourite movie": "The Shawshank Redemption",
+    "Favourite series": "Better Call Saul",
+    "Favourite food": "fried potatoes",
+    "Favourite season": "summer",
+    "Country I would like to visit": "USA"
+}
+```
+
+### 11. Создать файл sklls.json и добавить информацию о скиллах, которые будут изучены на курсе в формате JSON
+
+`vim skills.json`
+```
+{
+    "Skills": [
+        "Bash commands and simple scripts",
+        "Git and GitHub",
+        "Test design techniques",
+        "Client-server architectire",
+        "API testing with Postman",
+        "Writing test documentation",
+        "Web and mobile testing (DevTools)",
+        "Charles and Fiddler",
+        "SQL",
+        "JMeter",
+        "Developing simple mobile apps with Xcode/Android Studio"
+    ]
+}
+```
+
+### 12. Отправить сразу 2 файла на внешний репозиторий
+
+`git add . && git commit -m "third commit" && git push`
+
+### 13. На веб интерфейсе создать файл bug_report.json
+- открыть репозиторий
+- кликнуть [Add file] -> [Create new file]
+- ввести имя
+  
+### 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+
+Кликнуть [Commit changes...]
+
+### 15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON
+
+Добавить содержимое:
+```
+{
+  "Title": "(Heisenbug) App Store is opened on any instrument's page when clicking button [Add to Favourite] / [View Detailed Chart] / [Notification (bell)]",
+  "Precondition": "the user is authorized",
+  "Steps to reproduce": [
+    "1. Navigate to capital.com",
+    "2. Click menu section [Markets]",
+    "3. Scroll down to the widget 'We offer one-click trading experience with 3,700+ world-renowned markets.'", 
+    "4. Click on any instrument's link",
+    "5. Click button [Add to Favourite] / [View Detailed Chart] / [Notification (bell)]"
+  ],
+  "Expected result": "Trading Platform is opened",
+  "Actual result": "App Store is opened",
+  "Severity": "Major",
+  "Environment": "Windows 11, Chrome 114",
+  "Attachments": "link"
+}
+```
+
+### 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+
+Кликнуть [Commit changes...]
+
 ### 17. Синхронизировать внешний и локальный репозиторий JSON
+
+`git pull`
 
 
 ### [XML](https://github.com/jktrigger99/XML)
@@ -64,19 +156,115 @@
 
 `git commit -m "new.xml added`
 
-### 6. Отправить файл на внешний GitHub репозиторий.
-### 7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
-### 8. Отправить изменения на внешний репозиторий.
+### 6. Отправить файл на внешний GitHub репозиторий
+
+`git push`
+
+### 7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML
+
+`vim new.xml`
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<jktrigger>
+	<name>jktrigger</name>
+	<age>38</age>
+	<pets>0</pets>
+	<desiredFutureSalary>5000</desiredFutureSalary>
+</jktrigger>
+```
+
+### 8. Отправить изменения на внешний репозиторий
+
+```
+git add .
+git commit -m "second commit"
+git push
+```
+
 ### 9. Создать файл preferences.xml
-### 10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
-### 11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
-### 12. Сделать коммит в одну строку.
-### 13. Отправить сразу 2 файла на внешний репозиторий.
-### 14. На веб интерфейсе создать файл bug_report.xml.
-### 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-### 16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
-### 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+`touch preferences.xml`
+
+### 10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML
+
+`vim preferences.xml`
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<jktriggerPreferences>
+	<FavouriteMovie>The Shawshank Redemption</FavouriteMovie>
+	<FavouriteSeries>Better Call Saul</FavouriteSeries>
+	<FavouriteFood>fried potatoes</FavouriteFood>
+	<FavouriteSeason>summer</FavouriteSeason>
+	<СountryIWouldLikeToVisit>USA</СountryIWouldLikeToVisit>
+</jktriggerPreferences>
+```
+
+### 11. Создать файл sklls.xml и добавить информацию о скиллах, которые будут изучены на курсе в формате XML
+
+`vim skills.xml`
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<AcquiredSkills>
+	<skill>Bash commands and simple scripts</skill>
+	<skill>Git and GitHub</skill>
+	<skill>Test design technique</skill>
+	<skill>Client-server architectire</skill>
+	<skill>API testing with Postman</skill>
+	<skill>Writing test documentation</skill>
+	<skill>Web and mobile testing (DevTools)</skill>
+	<skill>Charles and Fiddler"</skill>
+	<skill>SQL</skill>
+	<skill>JMeter</skill>
+	<skill>Developing simple mobile apps with Xcode/Android Studio</skill>
+</AcquiredSkills>
+```
+
+### 12. Сделать коммит в одну строку
+
+`git add . && git commit -m "third commit"`
+
+### 13. Отправить сразу 2 файла на внешний репозиторий
+
+`git push`
+
+### 14. На веб интерфейсе создать файл bug_report.xml
+- открыть репозиторий
+- кликнуть [Add file] -> [Create new file]
+- ввести имя
+  
+### 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+
+Кликнуть [Commit changes...]
+
+### 16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML
+
+Добавить содержимое:
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<bugReport>
+  <Title>(Heisenbug) App Store is opened on any instrument's page when clicking button [Add to Favourite] / [View Detailed Chart] / [Notification (bell)] / [Sell] / [Buy] / [Start Trading] (at the widget "Trading Calculator") / [Trade Now] (at the widget "Single Market")</Title>
+  <Precondition>the user is authorized</Precondition>
+  <StepsToReproduce>
+    <step>1. Navigate to capital.com</step>
+    <step>2. Click menu section [Markets]</step>
+    <step>3. Scroll down to the widget "We offer one-click trading experience with 3,700+ world-renowned markets."</step>
+    <step>4. Click on any instrument's link</step>
+    <step>5. Click button [Add to Favourite] / [View Detailed Chart] / [Notification (bell)] / [Sell] / [Buy] / [Start Trading] (at the widget "Trading Calculator") / [Trade Now] (at the widget "Single Market")</step>
+  </StepsToReproduce>
+  <ExpectedResult>Trading Platform is opened</ExpectedResult>
+  <ActualResult>App Store is opened</ActualResult>
+  <Severity>Major</Severity>
+  <Environment>Windows 11 Chrome 114</Environment>
+  <Attachments>link</Attachments>
+</bugReport>
+```
+### 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+
+Кликнуть [Commit changes...]
+
 ### 18. Синхронизировать внешний и локальный репозиторий XML
+
+`git pull`
 
 
 ### [TXT](https://github.com/jktrigger99/TXT)
@@ -104,16 +292,109 @@
 
 `git commit -m "new.txt added`
 
-### 6. Отправить файл на внешний GitHub репозиторий.
-### 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
-### 8. Отправить изменения на внешний репозиторий.
+### 6. Отправить файл на внешний GitHub репозиторий
+
+`git push`
+
+### 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT
+
+`vim new.txt`
+```
+name: jktrigger
+age: 38
+pets: 0
+desired future salary: 5000
+```
+
+### 8. Отправить изменения на внешний репозиторий
+
+```
+git add .
+git commit -m "second commit"
+git push
+```
+
 ### 9. Создать файл preferences.txt
-### 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
-### 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
-### 12. Сделать коммит в одну строку.
-### 13. Отправить сразу 2 файла на внешний репозиторий.
-### 14. На веб интерфейсе создать файл bug_report.txt.
-### 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-### 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
-### 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+`touch preferences.txt`
+
+### 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT
+
+`vim preferences.txt`
+```
+Favourite movie: The Shawshank Redemption
+Favourite series: Better Call Saul
+Favourite food: fried potatoes
+Favourite season: summer
+Сountry I would like to visit: USA
+```
+
+### 11. Создать файл sklls.txt и добавить информацию о скиллах, которые будут изучены на курсе в формате TXT
+
+`vim skills.txt`
+```
+Skills:
+- Bash commands and simple scripts,
+- Git and GitHub,
+- Test design techniques,
+- Client-server architectire,
+- API testing with Postman,
+- Writing test documentation,
+- Web and mobile testing (DevTools),
+- Charles and Fiddler",
+- SQL,
+- JMeter,
+- Developing simple mobile apps with Xcode/Android Studio.
+```
+
+### 12. Сделать коммит в одну строку
+
+`git add . && git commit -m "third commit"`
+
+### 13. Отправить сразу 2 файла на внешний репозиторий
+
+`git push`
+
+### 14. На веб интерфейсе создать файл bug_report.txt
+- открыть репозиторий
+- кликнуть [Add file] -> [Create new file]
+- ввести имя
+
+### 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+
+Кликнуть [Commit changes...]
+
+### 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT
+
+Добавить содержимое:
+```
+Title: 
+(Heisenbug) App Store is opened on any instrument's page when clicking button [Add to Favourite] / [View Detailed Chart] / [Notification (bell)] / [Sell] / [Buy] / [Start Trading] (at the widget "Trading Calculator") / [Trade Now] (at the widget "Single Market")
+
+Precondition: the user is authorized
+
+Steps to reproduce:
+1. Navigate to capital.com
+2. Click menu section [Markets]
+3. Scroll down to the widget "We offer one-click trading experience with 3,700+ world-renowned markets." 
+4. Click on any instrument's link
+5. Click button [Add to Favourite] / [View Detailed Chart] / [Notification (bell)] / [Sell] / [Buy] / [Start Trading] (at the widget "Trading Calculator") / [Trade Now] (at the widget "Single Market")
+
+Expected result: Trading Platform is opened
+
+Actual result: App Store is opened
+
+Severity: Major
+
+Environment: Windows 11, Chrome 114
+
+Attachments: link
+```
+
+### 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе
+
+Кликнуть [Commit changes...]
+
 ### 18. Синхронизировать внешний и локальный репозиторий TXT
+
+`git pull`
