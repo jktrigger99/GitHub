@@ -75,12 +75,12 @@ git push
         "Bash commands and simple scripts",
         "Git and GitHub",        
         "Client-server architecture",
-	"DevTools",
+				"DevTools",
         "API testing with Postman",
-	"SQL",
-	"Test design techniques",
+				"SQL",
+				"Test design techniques",
         "Writing test documentation",
-	"Mobile testing (Xcode and Android Studio)",
+				"Mobile testing (Android Studio and Xcode)",
         "Charles Proxy and Fiddler",        
         "JMeter" ]
 }
@@ -153,7 +153,7 @@ git push
 
 ### 5. Закоммитить файл
 
-`git commit -m "new.xml added`
+`git commit -m "new.xml is added"`
 
 ### 6. Отправить файл на внешний GitHub репозиторий
 
@@ -184,7 +184,7 @@ git push
 
 `touch preferences.xml`
 
-### 10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML
+### 10. В файл preferences.xml добавить информацию о своих предпочтениях (любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате XML
 
 `vim preferences.xml`
 ```
@@ -206,15 +206,15 @@ git push
 <AcquiredSkills>
 	<skill>Bash commands and simple scripts</skill>
 	<skill>Git and GitHub</skill>
-	<skill>Test design technique</skill>
-	<skill>Client-server architectire</skill>
+	<skill>Client-server architecture</skill>
+	<skill>DevTools</skill>
 	<skill>API testing with Postman</skill>
-	<skill>Writing test documentation</skill>
-	<skill>Web and mobile testing (DevTools)</skill>
-	<skill>Charles and Fiddler"</skill>
 	<skill>SQL</skill>
+	<skill>Writing test documentation</skill>	
+	<skill>Test design technique</skill>	
+	<skill>Mobile testing (Xcode and Android Studio)</skill>
+	<skill>Charles and Fiddler"</skill>
 	<skill>JMeter</skill>
-	<skill>Developing simple mobile apps with Xcode/Android Studio</skill>
 </AcquiredSkills>
 ```
 
@@ -281,7 +281,7 @@ git push
 
 ### 3. Внутри локального TXT создать файл “new.txt”
 
-`touch new.txt'
+`touch new.txt`
 
 ### 4. Добавить файл под гит
 
@@ -289,7 +289,7 @@ git push
 
 ### 5. Закоммитить файл
 
-`git commit -m "new.txt added`
+`git commit -m "new.txt is added`
 
 ### 6. Отправить файл на внешний GitHub репозиторий
 
@@ -317,7 +317,7 @@ git push
 
 `touch preferences.txt`
 
-### 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT
+### 10. В файл preferences.txt” добавить информацию о своих предпочтениях (любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате TXT
 
 `vim preferences.txt`
 ```
@@ -335,15 +335,15 @@ Favourite season: summer
 Skills:
 - Bash commands and simple scripts,
 - Git and GitHub,
-- Test design techniques,
-- Client-server architectire,
+- Client-server architecture,
+- DevTools,
 - API testing with Postman,
-- Writing test documentation,
-- Web and mobile testing (DevTools),
-- Charles and Fiddler",
 - SQL,
+- Mobile testing (Android Studio and Xcode),
+- Charles Proxy and Fiddler",
 - JMeter,
-- Developing simple mobile apps with Xcode/Android Studio.
+- Writing test documentation,
+- Test design techniques.
 ```
 
 ### 12. Сделать коммит в одну строку
