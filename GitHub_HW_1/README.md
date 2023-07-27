@@ -15,7 +15,7 @@
 
 ### 3. Внутри локального JSON создать файл “new.json”
 
-`touch new.json'
+`touch new.json`
 
 ### 4. Добавить файл под гит
 
@@ -23,7 +23,7 @@
 
 ### 5. Закоммитить файл
 
-`git commit -m "new.json added`
+`git commit -m "new.json is added"`
 
 ### 6. Отправить файл на внешний GitHub репозиторий
 
@@ -53,7 +53,7 @@ git push
 
 `touch preferences.json`
 
-### 10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON
+### 10. В файл preferences.json добавить информацию о своих предпочтениях (любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате JSON
 
 `vim preferences.json`
 ```
@@ -73,17 +73,16 @@ git push
 {
     "Skills": [
         "Bash commands and simple scripts",
-        "Git and GitHub",
-        "Test design techniques",
-        "Client-server architectire",
+        "Git and GitHub",        
+        "Client-server architecture",
+	"DevTools",
         "API testing with Postman",
+	"SQL",
+	"Test design techniques",
         "Writing test documentation",
-        "Web and mobile testing (DevTools)",
-        "Charles and Fiddler",
-        "SQL",
-        "JMeter",
-        "Developing simple mobile apps with Xcode/Android Studio"
-    ]
+	"Mobile testing (Xcode and Android Studio)",
+        "Charles Proxy and Fiddler",        
+        "JMeter" ]
 }
 ```
 
@@ -146,7 +145,7 @@ git push
   
 ### 3. Внутри локального XML создать файл “new.xml”
 
-`touch new.xml'
+`touch new.xml`
 
 ### 4. Добавить файл под гит
 
