@@ -9,25 +9,46 @@
 - Charles
 - Mobile_Testing
 
-`git branch Postman`
+`git branch Postman` и т.д. 
 
-и т.д. Название ветки должно быть без пробелов. Создать несколько веток в одной команде можно через `&&`
+Название ветки должно быть без пробелов. Создать несколько веток одной командой можно через `&&`
 
 ### 2. Запушить все ветки на внешний репозиторий
 
-`git push -u origin Postman`
-
-и т.д.
+`git push -u origin Postman` и т.д.
 
 ### 3. В ветке Bug_Reports сделать текстовый документ со структурой баг репорта
 ```
 git checkout Bug_Reports
 vim bug_report.txt
 ```
+
+Далее в режиме редактирования добавляем информацию:
+```
+Title: 
+
+Precondition: 
+
+Steps to reproduce:
+1. 
+2.
+3.
+
+Expected result: 
+
+Actual result: 
+
+Severity: 
+
+Environment: 
+
+Attachments: 
+```
+
 ### 4. Запушить структуру багрепорта на внешний репозиторий
 ```
 git add bug_report.txt
-git commit -m "first"
+git commit -m "first commit"
 git push
 ```
 ### 5. Вмержить ветку Bug_Reports в Main
@@ -43,6 +64,25 @@ git merge Bug_Reports
 ```
 git checkout Checklists
 vim checklist.txt
+```
+
+Далее в режиме редактирования добавляем информацию:
+```
+project
+date
+tester
+environment
+
+check					  status
+
+1. check logo				  passed
+2. check burger menu			  passed
+3. check login button			  passed
+4. login with valid credentials		  passed
+5. login with invalid credentials	  passed
+6. check forgot password		  failed
+7. check privacy policy			  passed
+8. check footer				  passed
 ```
 ### 8. Запушить структуру на внешний репозиторий
 ```
